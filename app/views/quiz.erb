@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <div>
+   <title>Quiz</title>
+   </div>
+    <link rel ="stylesheet" type= "text/css" href="css/style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
+
+ </head>
+ <body class=actual_home>
+        <h1 class=head>Quiz</h1>
+   <h2 class=paragraph_1>Which Ivy League College is best for you?</h2>
+<div class="container">
+   <form action="/quiz_results" method="POST">
+
+   <ul>
+     <li>
+       <h3>Where do you want to go to school?</h3>
+       <br>
+         <input name="location" type="radio" id="Cambridge_Massachusetts" value="Cambridge,Massachusetts"/>
+         <label for="Cambridge_Massachusetts">Cambridge,Massachusetts</label>
+
+       <br>
+
+         <input name="location" type="radio" id="New Haven_Conneticut" value="New Haven,Conneticut" />
+         <label for="New Haven_Conneticut">New Haven,Conneticut</label>
+
+       <br>
+
+         <input name="location" type="radio" id="Princeton_New_Jersey" value="Princeton,New Jersey"  />
+       <label for="Princeton_New_Jersey">Princeton,New Jersey</label>
+
+       <br>
+
+         <input name="location" type="radio" id="New_York" value="New York" />
+         <label for="New_York">New York</label>
+
+       <br>
+
+     </li>
+
+     <li> <h3>What would you like to study?</h3>
+       <br>
+
+       <input name="major" type="radio"  id="Economics"  value="Economics" />
+       <label for="Economics">Economics</label>
+       <br>
+
+         <input name="major" type="radio" id="Political_Science" value=" Political Science" />
+         <label for="Political_Science">Political Science</label>
+
+       <br>
+
+         <input name="major" type="radio" id="Computer_Science" value="Computer Science"  />
+         <label for="Computer_Science">Computer Science</label>
+
+       <br>
+
+           <input name="major" type="radio" id="Psychology" value="Psychology"  />
+           <label for="Psychology">Psychology</label>
+
+       <br>
+
+     </li>
+
+     <li> <h3>Which person inspires you the most?</h3><br>
+
+
+     <input name="alumni" type="radio" id="Barack_Obama" value="Barack Obama" />
+     <label for="Barack_Obama"> Barack Obama</label>
+
+       <br>
+
+     <input name="alumni" type="radio" id="Meryl_Streep" value="Meryl Streep" />
+     <label for="Meryl_Streep">Meryl Streep</label>
+
+       <br>
+
+      <input name="alumni" type="radio" id="John_F_Kennedy " value="John F. Kennedy " />
+     <label for="John_F_Kennedy ">John F. Kennedy</label>
+
+       <br>
+
+       <input name="alumni" type="radio" id="Alicia_Keys" value="Alicia Keys" />
+       <label for="Alicia_Keys">Alicia Keys</label>
+<br>
+
+     <li> <h3>Which acceptance rate sounds best to you?</h3><br>
+
+
+     <input name="rate" type="radio" id="5.3%" value="5.3%" />
+     <label for="5.3%">5.3%</label>
+
+       <br>
+
+     <input name="rate" type="radio" id="6.5%" value="6.5%" />
+     <label for="6.5%">6.5%</label>
+
+       <br>
+
+     <input name="rate" type="radio" id="7%" value="7%"  />
+     <label for="7%">7%</label></label>
+
+       <br>
+
+       <input name="rate" type="radio" id="6.1%" value="6.1%" />
+       <label for="6.1%">6.1%</label>
+
+       <br>
+
+<!--   </form> -->
+     </li>
+
+     <li> <h3>What describes you the most? </h3><br>
+
+
+
+     <input name="desc" type="radio" id="Future_Politician" value="Future Politician" />
+     <label for="Future_Politician">Future Politician</label>
+
+       <br>
+
+     <input name="desc" type="radio" id="Book-Lover" value="Book-Lover" />
+     <label for="Book-Lover">Book-Lover</label>
+
+       <br>
+
+     <input name="desc" type="radio" id="Preppy" value="Preppy"  />
+     <label for="Preppy">Preppy</label>
+
+       <br>
+
+       <input name="desc" type="radio" id="Tech_Savvy" value="Tech Savvy" />
+       <label for="Tech_Savvy">Tech Savvy</label>
+
+     <br>
+     </li>
+     <br>
+   
+     <li><button type="submit" value="Submit">Submit</button></li>
+     <br><br><br>
+     </ul>
+
+
+
+  </form>
+   </div>
+
+
+ </body>
+</html>

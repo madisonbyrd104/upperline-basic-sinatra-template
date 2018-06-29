@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ 
+   <title>Results</title>
+  <link rel ="stylesheet" type= "text/css" href="css/style.css">
+</head>
+<body class=actual_home>
+   <h1 style="display: inline">Your Results are:  </h1>
+   <% @new_answer.print.each do |key, value| %>
+     <h5 style="display: inline; margin-top: 2%;margin-left: 3%"><%= key.to_s %> - <%= value.to_s %></h5>
+   <% end %>
+
+   <h2>Now you can use these results to learn more about the Ivys</h2>
+   
+<!--   <style>-->
+<!--table {-->
+<!--   font-family: arial, sans-serif;-->
+<!--   border-collapse: collapse;-->
+<!--   width: 100%;-->
+<!--}-->
+
+<!--td, th {-->
+<!--   border: 1px solid #dddddd;-->
+<!--   text-align: left;-->
+<!--   padding: 8px;-->
+<!--}-->
+
+<!--tr:nth-child(even) {-->
+<!--   background-color: #dddddd;-->
+<!--}-->
+<!--</style>-->
+</head>
+
+<body>
+
+<h2>Ivy League Table</h2>
+ 
+<table>
+ <tr>
+   <th>College</th>
+   <th>Acceptance Rate</th>
+   <th>Average GPA of Students Accepted </th>
+   <th>Average SAT Score Accepted</th>
+   <th>ACT Score</th>
+   <th>Website</th>
+ </tr>
+ <tr>
+   <td>Harvard</td>
+   <td>5.3%</td>
+   <td>4.04</td>
+   <td>1540</td>
+   <td>34</td>
+   <td> <a href="https://www.harvard.edu">Harvard Home Page</a> </td>
+ </tr>
+ <tr>
+   <td>Yale</td>
+   <td>6.5%</td>
+   <td>4.19</td>
+   <td>1540</td>
+   <td>33</td>
+   <td> <a href="https://www.yale.edu">Yale Home Page</a> </td>
+ </tr>
+ <tr>
+   <td>Princeton</td>
+   <td>7%</td>
+   <td>3.9</td>
+   <td>1520</td>
+   <td>33</td>
+   <td> <a href="https://www.princeton.edu">Princeton Home Page</a> </td>
+ </tr>
+ <tr>
+   <td>Columbia</td>
+   <td>6.1%</td>
+   <td>4.13</td>
+   <td>1530</td>
+   <td>34</td>
+   <td> <a href="https://www.columbia.edu">Columbia Home Page</a> </td>
+ </tr>
+
+</table>
+   
+
+ 
+<br>
+
+   
+ 
+   <h1></h1>
+   
+   <form method="post" action="/index">
+       <input class=button type="submit" value="Home">
+       </form>
+       
+      
+ </body>
+</html>

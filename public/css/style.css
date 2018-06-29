@@ -1,0 +1,61 @@
+.home { background-color:#FA8072}
+
+.head {font-family:Impact, Charcoal, sans-serif;
+    text-align:center;
+    font-size:300%;
+}
+
+.paragraph_1 {font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+           margin: 25px 50px 75px 100px;
+            text-align: center;
+    }
+    
+    
+.button {
+    background-color: #1B2859;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+        
+.unweighted_calc {background-color: #FA8072;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 95%;
+}        
+   
+ .results {background-color: #FA8072;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ text-align:center;
+ 
+ }
+ 
+ 
+ .actual_home {background-color: #AED6F1;}
+ 
+ 
+ .paragraphs {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     
+ }
+        
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+border: 1px solid #FFFFFF;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+   background-color: #FFFFFF;
+}
